@@ -1,0 +1,23 @@
+def load_jobs():
+    return[
+    {'id':1,
+    "position":"Data Analyst",
+     "salary": 1800,
+     "location":'Vilnius',
+     "required_skills":"Python, SQL, Power BI, Excel"},
+    {'id':2,
+    "position":"Business Analyst",
+     "salary": 2000,
+     "location":'Kaunas',
+     "required_skills":"Power BI, SQL, Jira"},
+    {'id':3,
+    "position":"Financial Analyst",
+     "salary": 2500,
+     "location":'Utena',
+     "required_skills":"Audit, Excel, Vlookup, PivotTables"},
+    {'id':4,
+    "position": "Project Manager",
+    "salary": 2800,
+    "location": "Hybrid",
+    "required_skills": "Excel"},
+]
