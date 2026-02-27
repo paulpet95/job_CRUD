@@ -1,3 +1,6 @@
+from data1 import load_data
+
+
 def print_info():
     print("-------------------------")
     print("1. Display positions.")
@@ -6,6 +9,9 @@ def print_info():
     print("4. Delete positions.")
     print("5. Exit.")
     print("-------------------------")
+
+def load_jobs():
+    return load_data()
 
 def print_job(jobs):
     for job in jobs:
@@ -61,3 +67,4 @@ def delete_job(jobs):
                         jobs.remove(job)
                         print("Position successfully deleted")
                         break
+

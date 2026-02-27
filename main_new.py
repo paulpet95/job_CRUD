@@ -1,8 +1,7 @@
-from data1 import load_jobs
-from list_CRUD1 import *
+from file_CRUD import *
 
 jobs = load_jobs()
-id_counter = 4
+id_counter = 5
 
 while True:
     print_info()

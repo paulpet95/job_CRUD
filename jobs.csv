@@ -1,0 +1,6 @@
+id,position,salary,location,required_skills
+1,Data Analyst,1800,Vilnius,"Python, SQL, Power BI, Excel"
+2,Business Analyst,2000,Kaunas,"Power BI, SQL, Jira"
+3,Financial Analyst,2500,Utena,"Audit, Excel, Vlookup, PivotTables"
+4,Project Manager,2800,Hybrid,Excel
+5,Programmer,4000,Remote,"Java, Python, PHP"
