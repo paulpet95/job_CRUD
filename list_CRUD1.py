@@ -1,6 +1,5 @@
 from data1 import load_data
 
-
 def print_info():
     print("-------------------------")
     print("1. Display positions.")
